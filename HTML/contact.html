@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - SkillCraft</title>
+  <link rel="stylesheet" href="../CSS/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">SkillCraft</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><button id="themeToggle">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero contact-hero">
+    <div class="hero-content">
+      <h1>Contact Us</h1>
+      <p>Let's build something great together!</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+      <img src="../images/contact-illustration.jpg" alt="Contact Illustration" class="contact-img" />
+  <h2>Get in Touch</h2>
+  <p>We’d love to hear from you. Fill out the form below and we’ll get back to you soon!</p>
+
+  <form class="contact-form" action="#" method="POST">
+    <div class="form-group">
+      <input type="text" name="name" id="name" required />
+      <label for="name">Your Name</label>
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" id="email" required />
+      <label for="email">Email Address</label>
+    </div>
+    <div class="form-group">
+      <input type="text" name="subject" id="subject" required />
+      <label for="subject">Subject</label>
+    </div>
+    <div class="form-group">
+      <textarea name="message" id="message" rows="5" required></textarea>
+      <label for="message">Your Message</label>
+    </div>
+    <button type="submit" class="btn-submit">Send Message</button>
+  </form>
+</section>
+
+
+  <section class="map-section">
+    <h2>Our Location</h2>
+    <div class="map-box fade-in">
+      <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SkillCraft. All rights reserved.</p>
+  </footer>
+
+  <script src="../JS/script.js"></script>
+</body>
+</html>
