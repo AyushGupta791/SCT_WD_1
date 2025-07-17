@@ -24,7 +24,7 @@ This is a responsive multi-page website built as part of my internship at **Skil
 
 ## 📁 How to Use
 1. Download or clone the repo:
-git clone https://github.com/your-username/skillcraft-landing-page.git
+git clone https://github.com/AyushGupta791/SCT_WD_1.git
 2. Open `index.html` in a browser.
 3. Navigate between pages using the top navigation bar.
 
